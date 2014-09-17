@@ -7,6 +7,10 @@
                 font-family: Ubuntu;
                 font-weight: lighter;
             }
+            body {
+                width: 70%;
+                margin: auto;
+            }
             h2 {
                 padding-bottom: 0;
                 margin-bottom: 0;
@@ -26,18 +30,32 @@
                 padding-bottom: 0;
                 margin-bottom: 0;
             }
+            hr {
+                border: 0;
+                height: 1px;
+                background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+                background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+                background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+                background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+            }
+            div.Content {
+                width: 50%;
+            }
         </style>
     </head>
     <body>
         <center>
+            <hr>
             <img src="resources/logo.png">
             <h1>
                 Brighton College Micro-electronic Engineering
             </h1>
-            <hr>
-            <p class="date">Michaelmas Term</p>
-            <h2><a href="http://www.github.com/brightoncollege/animatronic-prosthetic-hand">Animatronic Prosthetic Hand</a></h2>
-            <i>A project using Arduino to control a robotic hand though a bluetooth connection with a mobile device.</i>s
+                <hr>
+                <div class="Content">
+                <p class="date">Michaelmas Term</p>
+                <h2><a href="http://www.github.com/brightoncollege/animatronic-prosthetic-hand">Animatronic Prosthetic Hand</a></h2>
+                <i>A project using Arduino to control a robotic hand though a bluetooth connection with a mobile device.</i>
+            </div>
         </center>
     </body>
 </html>
